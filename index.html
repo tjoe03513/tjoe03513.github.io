@@ -1,0 +1,110 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AR Sketch Overlay - Google Play Listing</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            color: #ffffff;
+            background-color: #4a2c82;
+        }
+        h1 {
+            color: #64b5f6;
+            font-size: 28px;
+            margin-bottom: 12px;
+        }
+        h2 {
+            color: #64b5f6;
+            font-size: 22px;
+            margin-top: 32px;
+            margin-bottom: 12px;
+        }
+        .feature-list {
+            list-style: none;
+            padding: 0;
+        }
+        .feature-list li {
+            margin: 14px 0;
+            padding-left: 28px;
+            position: relative;
+            line-height: 1.6;
+        }
+        .feature-list li::before {
+            content: "✨";
+            position: absolute;
+            left: 0;
+        }
+        .screenshot-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 16px;
+            margin: 24px 0;
+        }
+        .screenshot {
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.25);
+            background: #5e35b1;
+        }
+        .screenshot img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        p {
+            line-height: 1.6;
+            font-size: 16px;
+            color: #e2e8f0;
+        }
+        .app-icon {
+            width: 120px;
+            height: 120px;
+            border-radius: 24px;
+            margin: 0 auto 20px;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <img src="app_icon.png" alt="AR Sketch Overlay App Icon" class="app-icon">
+    <h1>AR Sketch Overlay: Trace & Draw with Ease</h1>
+    <p>Discover the fun of drawing with <strong>AR Sketch Overlay</strong>—the ultimate AR-powered app that lets anyone create beautiful sketches effortlessly! Whether you’re a complete beginner or a creative enthusiast, our innovative AR tracing technology turns your phone into a portable art studio, making drawing accessible and enjoyable for all.</p>
+
+    <h2>Key Features</h2>
+    <ul class="feature-list">
+        <li><strong>AR Tracing Technology</strong>: Overlay any sketch onto your real-world paper or surface using your camera, then trace along the lines to create perfect drawings—no prior skills needed!</li>
+        <li><strong>Rich Sketch Categories</strong>: Explore a huge library of templates across Animals, Birds, Butterflies, Cafe, Cartoons, Christmas, Festivals, and more—from cute characters to intricate patterns, there’s something for every taste.</li>
+        <li><strong>Personalized Recommendations</strong>: Get tailored sketch suggestions in the "Guess You Will Like" section, and discover trending designs in the "Popular" and "Ranking" tabs.</li>
+        <li><strong>Favorites System</strong>: Save your favorite sketches to revisit later, with a dedicated "Favorite" tab to keep all your go-to designs in one place.</li>
+        <li><strong>Smart Navigation</strong>: Browse by category, search for specific sketches, or check the ranking of top-rated designs to find your next inspiration quickly.</li>
+        <li><strong>User-Friendly Tools</strong>: Intuitive controls let you adjust sketch opacity, position, and size, while the "More Settings" tab gives you access to rating, feedback, and customization options.</li>
+    </ul>
+
+    <p>No more struggling with proportions or perspective—just pick a sketch, project it with AR, and start tracing! Download <strong>AR Sketch Overlay</strong> today and unlock your inner artist, one line at a time.</p>
+
+    <h2>App Screenshots</h2>
+    <div class="screenshot-grid">
+        <div class="screenshot">
+            <img src="screenshot_home.png" alt="AR Sketch Overlay home screen with recommended sketches">
+        </div>
+        <div class="screenshot">
+            <img src="screenshot_category.png" alt="Category screen with cute icons for Animals, Birds, and more">
+        </div>
+        <div class="screenshot">
+            <img src="screenshot_favorite.png" alt="Favorite tab showing saved sketches">
+        </div>
+        <div class="screenshot">
+            <img src="screenshot_ranking.png" alt="Ranking screen with top-rated sketches">
+        </div>
+        <div class="screenshot">
+            <img src="screenshot_settings.png" alt="Settings screen with rating and feedback options">
+        </div>
+    </div>
+</body>
+</html>
